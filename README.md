@@ -1,6 +1,8 @@
 # ILP for the Copy-Number Tree (CNT) Problem
 ============================================
 
+[License](LICENSE.txt)
+
 ## Dependencies
 
 * [LEMON Graph library](http://lemon.cs.elte.hu) (>= 1.3)
