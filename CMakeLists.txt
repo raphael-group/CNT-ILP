@@ -63,9 +63,9 @@ endif()
 SET(CMAKE_XCODE_ATTRIBUTE_CLANG_CXX_LIBRARY "libstdc++")
 add_definitions( -DIL_STD )
 
-if( ${CMAKE_SYSTEM_NAME} MATCHES "Darwin" )
-  set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libstdc++" )
-endif()
+#if( ${CMAKE_SYSTEM_NAME} MATCHES "Darwin" )
+#  set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libstdc++" )
+#endif()
 
 include_directories( ${CPLEX_INC_DIR} ${CONCERT_INC_DIR} "${LIBLEMON_ROOT}/include" "src" )
 link_directories( ${CPLEX_LIB_DIR} ${CONCERT_LIB_DIR} "${LIBLEMON_ROOT}/lib" )
